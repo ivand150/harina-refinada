@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-    <img src={harina} alt="" />
+    <img src={harina} alt="" className='logo'/>
       <h1>Harina refinada</h1>
       <div className="card">
 
