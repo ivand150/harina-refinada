@@ -1,12 +1,11 @@
 import './App.css'
+import harina from "./assets/harina.png"
 
 function App() {
 
   return (
     <>
-      <div>
-
-      </div>
+    <img src={harina} alt="" />
       <h1>Harina refinada</h1>
       <div className="card">
 
@@ -14,6 +13,7 @@ function App() {
           coming soon...
         </p>
       </div>
+
     </>
   )
 }
